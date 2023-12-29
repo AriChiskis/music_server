@@ -5,7 +5,7 @@ const fs = require('fs');           // File system module to read/write files
 
 // Initialize Express application
 const app = express();
-const port = 2000;  // Port number on which the server will listen
+const port = 2000; // Port number on which the server will listen
 
 // Middleware setup
 app.use(cors());  // Enable CORS for all routes (necessary if your front-end and back-end are on different origins)
